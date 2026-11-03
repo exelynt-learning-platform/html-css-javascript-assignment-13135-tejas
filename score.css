@@ -1,0 +1,56 @@
+
+/* General page styling */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main content */
+.score-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Match heading */
+h1 {
+    color: #0b3d91;
+    text-align: center;
+}
+
+/* Section heading */
+h2 {
+    color: #15803d;
+}
+
+/* Match description */
+.match-description {
+    color: #444444;
+    line-height: 1.6;
+}
+
+/* Player list */
+.player-list {
+    background-color: #f8fafc;
+    border: 2px solid #0b3d91;
+    padding: 20px 40px;
+    border-radius: 6px;
+}
+
+/* Individual players */
+.player-list li {
+    margin-bottom: 10px;
+}
+
+/* Captain highlight */
+.captain {
+    color: #b45309;
+    font-weight: bold;
+    background-color: #fef3c7;
+    padding: 8px;
+    border-left: 4px solid #f59e0b;
+}

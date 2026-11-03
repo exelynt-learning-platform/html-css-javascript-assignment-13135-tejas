@@ -1,0 +1,155 @@
+
+/* General styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f4ff;
+    color: #1e1b4b;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(135deg, #312e81, #7c3aed);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.fest-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.7;
+}
+
+/* Registration link */
+.register-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #facc15;
+    color: #1e1b4b;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.register-btn:hover {
+    background-color: #fde68a;
+}
+
+/* Fest details */
+.fest-details,
+.events-section,
+.schedule-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #6d28d9;
+}
+
+.fest-details li {
+    margin-bottom: 12px;
+}
+
+/* Event cards using Flexbox */
+.event-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.event-card {
+    flex: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ddd6fe;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(49, 46, 129, 0.08);
+}
+
+.event-card h3 {
+    color: #7c3aed;
+}
+
+.event-card p {
+    line-height: 1.5;
+}
+
+.event-card span {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 12px;
+    background-color: #ede9fe;
+    color: #5b21b6;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Schedule button */
+.schedule-btn {
+    padding: 12px 24px;
+    background-color: #312e81;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.schedule-btn:hover {
+    background-color: #6d28d9;
+}
+
+/* Hidden schedule */
+.hidden {
+    display: none;
+}
+
+.schedule {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 5px solid #7c3aed;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1b4b;
+    color: #ffffff;
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .event-container {
+        flex-direction: column;
+    }
+
+    .event-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple shopping cart quantity counter.">
+    <title>Shopping Cart</title>
+</head>
+<body>
+
+    <main>
+        <h1>Shopping Cart</h1>
+
+        <section aria-label="Cart quantity">
+            <h2>Product: Laptop</h2>
+
+            <button id="decrease-btn" type="button"
+                    aria-label="Decrease quantity">
+                -
+            </button>
+
+            <span id="quantity" aria-live="polite">0</span>
+
+            <button id="increase-btn" type="button"
+                    aria-label="Increase quantity">
+                +
+            </button>
+        </section>
+    </main>
+
+    <script src="cart.js" defer></script>
+</body>
+</html>
